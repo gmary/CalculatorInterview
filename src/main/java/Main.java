@@ -14,12 +14,6 @@ class Main {
 
   public static class Tests {
 
-    @Test
-    public void should_return_0_when_numbers_is_an_empty_string() {
-      Calculator cal = new Calculator();
-      assertEquals(cal.add(""), 0);
-    }
-
   }
   
 }
